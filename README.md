@@ -82,6 +82,7 @@ The example above is the simplest use case, but the plugin has many possible con
 - [CLI Parameters](docs/015-CLI-Parameters.md)
 - [Environment Variables](docs/016-Environment_Variables.md)
 
-## License and Copyright
+## Copyright and License
 
-This repository is a free software, and is released under the terms of the MIT license. See [LICENSE](./LICENSE) for complete license.
+Good news, this library is free for everyone! Since it's released under the MIT License you can use it free of charge on your personal or commercial website.
+
