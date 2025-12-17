@@ -34,7 +34,7 @@ class Factory
      * @param callable(string, ?string=):?Process|null $factory
      * @return Factory
      */
-    public static function new(callable $factory = null): Factory
+    public static function new(?callable $factory = null): Factory
     {
         return new self($factory);
     }
