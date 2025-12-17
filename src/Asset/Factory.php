@@ -109,7 +109,11 @@ class Factory
         $path = $isRoot
             ? $this->rootDir
             : ($this->installationManager->getInstallPath($package) ?? '');
-
+        
+        if (!is_string($path) || $path === '') {
+            return null;
+        }
+        
         if (!$config && (!$rootLevelPackageConfig || $packageOrDefaultAllowed)) {
             $packageLevelConfig = Config::forComposerPackage(
                 $package,
